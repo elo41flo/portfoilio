@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    color: rgb(255, 255, 255); /* Assurer la visibilité du texte */
+}
+
+h1, h2, h3 {
+    color: rgb(80, 80, 248);
+    font-family: 'Courier New', Courier, monospace;
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    margin: 0;
+    padding: 20px;
+}
+
+p {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 10px 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+}
+
+nav {
+    background-color: rgb(0, 0, 0); /* Fond noir pour la barre de navigation */
+    color: rgb(255, 255, 255); /* Texte blanc */
+    padding: 10px 0; /* Padding pour espacer le contenu du nav */
+}
+
+.menu {
+    list-style-type: none; /* Enlève les puces */
+    margin: 0;
+    padding: 0;
+    display: flex; /* Utiliser Flexbox pour aligner horizontalement */
+    justify-content: center; /* Centrer les éléments horizontalement */
+}
+
+.menu li {
+    margin: 0 15px; /* Espacement horizontal entre les éléments du menu */
+}
+
+.menu li a {
+    text-decoration: none;
+    color: rgb(255, 255, 255); /* Couleur du texte des liens */
+    padding: 10px 20px; /* Espacement intérieur des liens */
+    display: block; /* Assure que le lien occupe l'espace de son conteneur */
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 5px;
+}
+
+.menu li a:hover {
+    background-color: rgb(80, 80, 248); /* Couleur de fond au survol */
+    color: white; /* Couleur du texte au survol */
+}
+
+main {
+    padding: 2em;
+}
+
+.project {
+    background-color: #333; /* Assure une bonne visibilité sur fond noir */
+    border: 1px solid #555;
+    border-radius: 5px;
+    margin: 1em 0;
+    padding: 1em;
+    color: #fff;
+}
+
+.project h3 {
+    margin-top: 0;
+}
+
+.project a {
+    color: #80c8ff;
+    text-decoration: none;
+}
+
+.project a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    width: 100%;
+}
+
+a {
+    color: #80c8ff; /* Couleur des liens */
+    text-decoration: none; /* Enlève la décoration des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Souligne les liens au survol */
+}
+
+.centered-link {
+    text-align: center; /* Centre le texte dans son conteneur */
+    margin-top: 20px; /* Ajoute un espace au-dessus si nécessaire */
+}
+
+.centered-link a {
+    color: #80c8ff; /* Couleur du lien */
+    text-decoration: none; /* Enlève la décoration du texte */
+    font-size: large;
+}
+
+.centered-link a:hover {
+    text-decoration: underline; /* Souligne au survol */
+}
