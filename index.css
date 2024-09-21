@@ -114,3 +114,18 @@ a:hover {
 .centered-link a:hover {
     text-decoration: underline; /* Souligne au survol */
 }
+
+.btn-download {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ff0000; /* Couleur de fond verte */
+    color: white; /* Couleur du texte blanche */
+    text-decoration: none; /* Supprime le soulignement du lien */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille du texte */
+    transition: background-color 0.3s ease; /* Transition fluide pour l'effet de survol */
+}
+
+.btn-download:hover {
+    background-color: rgb(80, 80, 248); /* Couleur de fond différente au survol */
+}
