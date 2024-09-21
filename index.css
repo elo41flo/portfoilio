@@ -36,6 +36,7 @@ nav {
     padding: 0;
     display: flex; /* Utiliser Flexbox pour aligner horizontalement */
     justify-content: center; /* Centrer les éléments horizontalement */
+    flex-wrap: wrap;
 }
 
 .menu li a {
@@ -45,6 +46,10 @@ nav {
     display: block; /* Assure que le lien occupe l'espace de son conteneur */
     transition: background-color 0.3s, color 0.3s;
     border-radius: 5px;
+}
+
+.menu li {
+    margin: 0 10px; /* Espace entre les éléments de la liste */
 }
 
 .menu li a:hover {
